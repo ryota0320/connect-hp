@@ -1,0 +1,21 @@
+[data-reveal] {
+  overflow: hidden;
+}
+
+[data-reveal] img {
+  transition: transform 0.8s var(--ease-out);
+}
+
+[data-reveal]:hover img {
+  transform: scale(1.03);
+}
+
+html.has-js [data-animation="fade-up"] {
+  visibility: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.has-js [data-animation="fade-up"] {
+    visibility: visible;
+  }
+}

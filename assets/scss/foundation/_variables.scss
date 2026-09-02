@@ -1,0 +1,15 @@
+:root {
+  --color-bg: #f7f7f3;
+  --color-white: #ffffff;
+  --color-primary: #143d36;
+  --color-accent: #9bbeae;
+  --color-text: #202321;
+  --color-subtext: #69706b;
+  --color-border: rgba(32, 35, 33, 0.15);
+  --font-ja: "Noto Sans JP", sans-serif;
+  --font-en: "Manrope", sans-serif;
+  --container: 1280px;
+  --gutter: clamp(20px, 5vw, 80px);
+  --section-space: clamp(96px, 13vw, 200px);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}

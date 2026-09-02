@@ -1,0 +1,26 @@
+.section-heading {
+  display: grid;
+  gap: 8px;
+  align-content: start;
+}
+
+.section-heading__en {
+  font-size: clamp(2.6rem, 5vw, 4.8rem);
+  font-weight: 300;
+  line-height: 1;
+}
+
+.section-heading__ja {
+  color: var(--color-subtext);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+}
+
+.section-heading--light {
+  color: var(--color-white);
+
+  .section-heading__ja {
+    color: rgba(255, 255, 255, 0.62);
+  }
+}

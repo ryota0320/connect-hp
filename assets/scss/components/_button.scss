@@ -1,0 +1,25 @@
+.text-link {
+  display: inline-flex;
+  gap: 34px;
+  align-items: center;
+  padding-bottom: 5px;
+  margin-top: 34px;
+  font-family: var(--font-en);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid currentColor;
+
+  span {
+    transition: transform 0.3s var(--ease-out);
+  }
+
+  &:hover span {
+    transform: translate(4px, -4px);
+  }
+}
+
+.text-link--light {
+  color: var(--color-white);
+}
